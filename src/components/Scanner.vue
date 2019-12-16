@@ -48,6 +48,11 @@ export default {
       );
       this.bookinfo = res.data.items[0].volumeInfo;
 
+      // If no book is found
+      // if book isn't in google api, add to database
+      // If book found add to book user database
+      //
+
       console.log(this.bookinfo);
       console.log(data);
     },
@@ -69,7 +74,7 @@ export default {
 }
 .camera {
   border: 1px solid red;
-  max-height: 300px;
+  max-height: 70%;
   display: block;
 }
 </style>
