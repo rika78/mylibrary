@@ -34,6 +34,12 @@ export default {
       );
     });
   },
+  // created() {
+  //   //User nicht auth
+  //   if (localStorage.getItem("token") == null) {
+  //     this.$router.push("/anmelden");
+  //   }
+  // },
   methods: {
     start() {
       Quagga.onDetected(this.onDetected);
@@ -74,7 +80,7 @@ export default {
 }
 .camera {
   border: 1px solid red;
-  max-height: 70%;
+  max-height: 300px;
   display: block;
 }
 </style>

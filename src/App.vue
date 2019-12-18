@@ -35,10 +35,10 @@
         <span class="mr-2">Latest Release</span>
         <v-icon>mdi-open-in-new</v-icon>
       </v-btn>
-    </v-app-bar> -->
+    </v-app-bar>-->
 
     <v-content>
-      <router-view/>
+      <router-view></router-view>
     </v-content>
   </v-app>
 </template>
@@ -47,7 +47,7 @@
 // import HelloWorld from './components/HelloWorld';
 
 export default {
-  name: 'App',
+  name: "App",
 
   components: {
     // HelloWorld,
@@ -55,6 +55,6 @@ export default {
 
   data: () => ({
     //
-  }),
+  })
 };
 </script>

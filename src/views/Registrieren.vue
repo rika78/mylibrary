@@ -41,7 +41,7 @@
             required
           ></v-text-field>
 
-          <v-btn to='/Startseite' color="warning" @click="addUser">OK</v-btn>
+          <v-btn to="/Startseite" color="warning" @click="addUser">OK</v-btn>
         </v-form>
       </v-col>
     </v-row>

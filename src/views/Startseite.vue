@@ -58,18 +58,21 @@
               <v-container class="mx-auto" grid-list-sm text-xm-center>
                 <v-layout row wrap class="mt-12">
                   <v-flex sm6 xs6>
-                    <v-btn to="/Scanner" x-large color="#18AFBC" dark>Book Scanner</v-btn>
+                    <v-btn width="100%" color="#18AFBC" height="200%" dark disabled>___DISABLED___</v-btn>
                   </v-flex>
                   <v-flex sm6 xs6>
-                    <v-btn x-large color="#18AFBC" dark disabled>___DISABLED___</v-btn>
+                    <v-btn width="100%" color="#18AFBC" height="200%" dark disabled>My Library</v-btn>
                   </v-flex>
                 </v-layout>
-                <v-layout row wrap>
-                  <v-flex sm6 xs6>
-                    <v-btn x-large color="#18AFBC" dark disabled>___DISABLED___</v-btn>
-                  </v-flex>
-                  <v-flex sm6 xs6>
-                    <v-btn x-large color="#18AFBC" dark disabled>___DISABLED___</v-btn>
+                <v-layout row wrap class="mt-12">
+                  <v-flex sm13 xs13>
+                    <v-btn
+                      to="/Scanner"
+                      width="100%"
+                      height="200%"
+                      color="#18AFBC"
+                      dark
+                    >Book Scanner</v-btn>
                   </v-flex>
                 </v-layout>
               </v-container>
